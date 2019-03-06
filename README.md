@@ -34,5 +34,30 @@
             <td>7</td>
             <td><a href="https://www.codewars.com/kata/where-is-vasya">Where is Vasya?</a></td>
         </tr>
+            <td rowspan=3>Khrystyna Mandzii</td>
+            <td>8</td>
+            <td><a href="https://www.codewars.com/kata/my-head-is-at-the-wrong-end">My head is at the wrong end</a></td>
+        </tr>
+        <tr>
+            <td>8</td>
+            <td><a href="https://www.codewars.com/kata/to-square-root-or-not-to-square-root">To square root or no to square</a></td>
+        </tr>
+        <tr>
+            <td>7</td>
+            <td><a href="https://www.codewars.com/kata/recursive-replication">Recursive Replication</a></td>
+        </tr>
+	 <tr>
+            <td rowspan=3>Nataliya Kozoriz</td>
+            <td>8</td>
+            <td><a href="https://www.codewars.com/kata/count-of-positives-slash-sum-of-negatives">Count of positives / sum of negatives</a></td>
+        </tr>
+        <tr>
+            <td>8</td>
+            <td><a href="https://www.codewars.com/kata/convert-a-string-to-a-number">Convert a String to a Number!</a></td>
+        </tr>
+        <tr>
+            <td>7</td>
+            <td><a href="https://www.codewars.com/kata/slamming-lockers">Slamming Lockers</a></td>
+        </tr>       
     </tbody>
 </table>
