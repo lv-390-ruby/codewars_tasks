@@ -1,19 +1,7 @@
-# 8 kyu Keep Hydrated!
+# Determines the amount of drinking water while cycling (0.5 litres of water per hour).
+# time - the time in hours.
+# return - the number of litres rounded to the smallest value.
 def litres(time)
   (time * 0.5).floor
 end
 
-puts litres(2)
-# 1
-puts litres(10)
-# 5
-puts litres(1.4)
-# 0
-puts litres(12.3)
-# 6
-puts litres(1787)
-# 893
-puts litres(0)
-# 0
-puts litres(5.5)
-# 2
