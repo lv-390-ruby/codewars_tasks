@@ -1,15 +1,11 @@
-# 8 kyu Pole Vault Starting Marks
+# Determines start the approach at the best possible starting mark for a pole sticker.
+# height - the vaulter's height in meters (which will always lie in a range between
+# a minimum of 1.22 meters and a maximum of 2.13 meters).
+# 1.22 - the minimum vaulter's height in meters.
+# 8.27 - a vaulter with a height of 1.22 meters should start at 8.27 meters on the runway.
+# 3.9341 - the constant offset involved.
+# return - the best starting mark in meters, rounded to two decimal places.
 def starting_mark(height)
-  ((height - 1.22) * 3.9341 + 8.27).round(2);
+  ((height - 1.22) * 3.9341 + 8.27).round(2)
 end
 
-puts starting_mark(1.52)
-# 9.45
-puts starting_mark(1.83)
-# 10.67
-puts starting_mark(1.22)
-# 8.27
-puts starting_mark(2.13)
-# 11.85
-puts starting_mark(1.75)
-# 10.36
