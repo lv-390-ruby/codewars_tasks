@@ -1,4 +1,8 @@
-# 7 kyu Sum of a sequence
+# Determines sum of a sequence of integers. If begin value is greater than the end, function should returns 0.
+# begin_number - the start of the sequence.
+# end_number - the end of the sequence.
+# step - the step with which the numbers in the sequence are added.
+# return - the sum of the sequence.
 def sequence_sum(begin_number, end_number, step)
   sum = 0
   if begin_number <= end_number
@@ -7,17 +11,3 @@ def sequence_sum(begin_number, end_number, step)
   sum
 end
 
-puts sequence_sum(2, 6, 2)
-# 12
-puts sequence_sum(1, 5, 1)
-# 15
-puts sequence_sum(1, 5, 3)
-# 5
-puts sequence_sum(0, 15, 3)
-# 45
-puts sequence_sum(16, 15, 3)
-# 0
-puts sequence_sum(2, 24, 22)
-# 26
-puts sequence_sum(2, 2, 2)
-# 2
