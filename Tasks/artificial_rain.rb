@@ -31,11 +31,3 @@ def artificial_rain(garden)
   max_arr.max
 end
 
-
-puts artificial_rain([2]) # [1] 1
-puts artificial_rain([2, 1, 1]) # [3, 2, 2] 3 || right [3, 2, 1] || left [1, 1, 2]
-puts artificial_rain([1, 2, 2]) # [1, 3, 3] 3 || right [1, 2, 1] || [1, 2, 3]
-puts artificial_rain([2, 1, 3]) # [2, 1, 2] 2 || right [2, 1, 1] || [1, 1, 3]
-puts artificial_rain([2, 1, 3, 3]) # [2, 1, 3, 3] 3
-puts artificial_rain([1, 2, 1, 2, 1]) # [1, 3, 1, 3, 1] 3
-puts artificial_rain([4, 2, 3, 3, 2]) # [2, 1, 4, 4, 1] 4
