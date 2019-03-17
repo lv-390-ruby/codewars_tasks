@@ -47,7 +47,7 @@
             <td><a href="https://www.codewars.com/kata/recursive-replication">Recursive Replication</a></td>
         </tr>
 	 <tr>
-            <td rowspan=3>Nataliya Kozoriz</td>
+            <td rowspan=5>Nataliya Kozoriz</td>
             <td>8</td>
             <td><a href="https://www.codewars.com/kata/count-of-positives-slash-sum-of-negatives">Count of positives / sum of negatives</a></td>
         </tr>
@@ -58,6 +58,14 @@
         <tr>
             <td>7</td>
             <td><a href="https://www.codewars.com/kata/slamming-lockers">Slamming Lockers</a></td>
-        </tr>       
+        </tr> 
+	  <tr>
+            <td>6</td>
+            <td><a href="https://www.codewars.com/kata/help-the-bookseller">Help the bookseller!</a></td>
+        </tr> 
+	 <tr>
+            <td>5</td>
+            <td><a href="https://www.codewars.com/kata/perimeter-of-squares-in-a-rectangle">Perimeter of squares in a rectangle</a></td>
+        </tr> 
     </tbody>
 </table>
