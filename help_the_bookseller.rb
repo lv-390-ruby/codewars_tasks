@@ -18,7 +18,7 @@
 
 
 def stockList(listOfArt, listOfCat)
-  return "" if listOfArt.empty? or listOfCat.empty?
+  return "" if listOfArt.empty? || listOfCat.empty?
 
   listOfArt = Hash[listOfArt.map {|el| el.split ' '}]
   listOfArt.select! {|key, val| listOfCat.join.include? key[0] }
