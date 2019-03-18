@@ -10,3 +10,4 @@ def divisible_by(numbers, divisible)
     return 0
   end
 end
+
