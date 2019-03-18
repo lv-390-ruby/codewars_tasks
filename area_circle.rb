@@ -3,6 +3,6 @@
 #and calculates the area of that circle.
 
 def circleArea (circle)
-  area=circle.radius**2*Math::PI
+  area = circle.radius ** 2 * Math::PI
 end
 
