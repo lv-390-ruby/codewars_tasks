@@ -22,7 +22,7 @@
 		        <td><a href="https://www.codewars.com/kata/sum-of-a-sequence">Sum of a sequence</a></td>
         </tr>
         <tr>
-            <td rowspan=3>Alina Kovtun</td>
+            <td rowspan=5>Alina Kovtun</td>
             <td>8</td>
             <td><a href="https://www.codewars.com/kata/volume-of-a-cuboid">Volume of a cuboid</a></td>
         </tr>
@@ -33,6 +33,14 @@
         <tr>
             <td>7</td>
             <td><a href="https://www.codewars.com/kata/where-is-vasya">Where is Vasya?</a></td>
+        </tr>
+        <tr>
+            <td>6</td>
+            <td><a href="https://www.codewars.com/kata/rainfall">Rainfall</a></td>
+        </tr>
+        <tr>
+            <td>5</td>
+            <td><a href="https://www.codewars.com/kata/gap-in-primes">Gap in Primes</a></td>
         </tr>
             <td rowspan=3>Khrystyna Mandzii</td>
             <td>8</td>
