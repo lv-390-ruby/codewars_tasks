@@ -34,6 +34,14 @@
             <td>7</td>
             <td><a href="https://www.codewars.com/kata/where-is-vasya">Where is Vasya?</a></td>
         </tr>
+        <tr>
+            <td>6</td>
+            <td><a href="https://www.codewars.com/kata/rainfall">Rainfall</a></td>
+        </tr>
+        <tr>
+            <td>5</td>
+            <td><a href="https://www.codewars.com/kata/gap-in-primes">Gap in Primes</a></td>
+        </tr>
             <td rowspan=3>Khrystyna Mandzii</td>
             <td>8</td>
             <td><a href="https://www.codewars.com/kata/my-head-is-at-the-wrong-end">My head is at the wrong end</a></td>
