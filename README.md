@@ -22,7 +22,7 @@
 		        <td><a href="https://www.codewars.com/kata/sum-of-a-sequence">Sum of a sequence</a></td>
         </tr>
         <tr>
-            <td rowspan=3>Alina Kovtun</td>
+            <td rowspan=5>Alina Kovtun</td>
             <td>8</td>
             <td><a href="https://www.codewars.com/kata/volume-of-a-cuboid">Volume of a cuboid</a></td>
         </tr>
