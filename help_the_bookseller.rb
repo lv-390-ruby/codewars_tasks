@@ -19,7 +19,6 @@
 
 def stockList(listOfArt, listOfCat)
   return "" if listOfArt.empty? || listOfCat.empty?
-
   listOfArt = Hash[listOfArt.map {|el| el.split ' '}]
   listOfArt.select! {|key, val| listOfCat.join.include? key[0] }
   listOfArt = Hash[listOfArt.values.map(&:to_i).zip(listOfArt.keys)].invert
