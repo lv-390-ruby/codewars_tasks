@@ -1,7 +1,0 @@
-Package    Version
----------- -------
-numpy      1.15.4 
-pip        19.0.2 
-setuptools 39.0.1 
-virtualenv 16.0.0 
-wheel      0.31.1 
