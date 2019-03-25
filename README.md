@@ -22,7 +22,7 @@
 		        <td><a href="https://www.codewars.com/kata/sum-of-a-sequence">Sum of a sequence</a></td>
         </tr>
         <tr>
-            <td rowspan=3>Alina Kovtun</td>
+            <td rowspan=5>Alina Kovtun</td>
             <td>8</td>
             <td><a href="https://www.codewars.com/kata/volume-of-a-cuboid">Volume of a cuboid</a></td>
         </tr>
@@ -33,6 +33,14 @@
         <tr>
             <td>7</td>
             <td><a href="https://www.codewars.com/kata/where-is-vasya">Where is Vasya?</a></td>
+        </tr>
+        <tr>
+            <td>6</td>
+            <td><a href="https://www.codewars.com/kata/rainfall">Rainfall</a></td>
+        </tr>
+        <tr>
+            <td>5</td>
+            <td><a href="https://www.codewars.com/kata/gap-in-primes">Gap in Primes</a></td>
         </tr>
             <td rowspan=3>Khrystyna Mandzii</td>
             <td>8</td>
@@ -47,7 +55,7 @@
             <td><a href="https://www.codewars.com/kata/recursive-replication">Recursive Replication</a></td>
         </tr>
 	 <tr>
-            <td rowspan=3>Nataliya Kozoriz</td>
+            <td rowspan=5>Nataliya Kozoriz</td>
             <td>8</td>
             <td><a href="https://www.codewars.com/kata/count-of-positives-slash-sum-of-negatives">Count of positives / sum of negatives</a></td>
         </tr>
@@ -58,6 +66,36 @@
         <tr>
             <td>7</td>
             <td><a href="https://www.codewars.com/kata/slamming-lockers">Slamming Lockers</a></td>
-        </tr>       
+        </tr> 
+	  <tr>
+            <td>6</td>
+            <td><a href="https://www.codewars.com/kata/help-the-bookseller">Help the bookseller!</a></td>
+        </tr> 
+	 <tr>
+            <td>5</td>
+            <td><a href="https://www.codewars.com/kata/perimeter-of-squares-in-a-rectangle">Perimeter of squares in a rectangle</a></td>
+        </tr> 
+    </tbody>
+    <thead>
+        <tr>
+            <th>Name</th>
+            <th>Kata</th>
+            <th>Url</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td rowspan=3>Vitalii Pidtserkovnyi</td>
+            <td>8</td>
+            <td><a href="https://www.codewars.com/kata/wilson-primes">Willson primes</a></td>
+        </tr>
+        <tr>
+            <td>8</td>
+		        <td><a href="https://www.codewars.com/kata/formatting-decimal-places-number-0">Formatting decimal places</a></td>
+        </tr>
+        <tr>
+	          <td>7</td>
+		        <td><a href="https://www.codewars.com/kata/looking-for-a-benefactor">Looking for a benefactor</a></td>
+        </tr>
     </tbody>
 </table>
