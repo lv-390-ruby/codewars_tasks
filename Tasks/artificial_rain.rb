@@ -6,28 +6,18 @@
 # covering 4 sections altogether: 2, 3, 3, 2.
 
 def artificial_rain(garden)
-  max_arr = []
-  i = 0
-  while i < garden.size
-    max_count = 1
-    current_height = garden[i]
-    i.downto(0).each do |l_index|
-      break unless (l_index - 1) >= 0
-      break unless garden[l_index - 1] <= current_height
-      max_count += 1
-      current_height = garden[l_index - 1]
+  max_count = low_high = 0
+  section_size = 1
+  (1...garden.length).each do |i|
+    x = garden[i]
+    if x < garden[i - 1]
+      low_high = i
+    elsif x > garden[i - 1]
+      max_count = [max_count, section_size].max
+      section_size = i - low_high
     end
-
-    current_height = garden[i]
-    (i..garden.size).each do |r_index|
-      break unless (r_index + 1) < garden.size
-      break unless garden[r_index + 1] <= current_height
-      max_count += 1
-      current_height = garden[r_index + 1]
-    end
-    max_arr[i] = max_count
-    i += 1
+    section_size += 1
   end
-  max_arr.max
+  [max_count, section_size].max
 end
 
