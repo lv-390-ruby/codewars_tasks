@@ -76,13 +76,6 @@
             <td><a href="https://www.codewars.com/kata/perimeter-of-squares-in-a-rectangle">Perimeter of squares in a rectangle</a></td>
         </tr> 
     </tbody>
-    <thead>
-        <tr>
-            <th>Name</th>
-            <th>Kata</th>
-            <th>Url</th>
-        </tr>
-    </thead>
     <tbody>
         <tr>
             <td rowspan=3>Vitalii Pidtserkovnyi</td>
