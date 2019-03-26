@@ -1,7 +1,7 @@
+# Author: Alina Kovtun
 # Vasya stands in line with number of people p (including Vasya),
 # but he doesn't know exactly which position he occupies.
 # Find the number of different positions Vasya can occupy.
-
 # Input
 # As an input you have 3 numbers:
 # 1. p - Total amount of people in the line;
