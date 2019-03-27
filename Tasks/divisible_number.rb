@@ -4,7 +4,7 @@
 
 def divisible_by(numbers, divisible)
   divisible_number = numbers.select{ |x| x % divisible == 0 }
-  if !divisible_number.zero?
+  if divisible_number != 0
     return divisible_number 
   else
     return 0
