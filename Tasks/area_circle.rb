@@ -5,7 +5,7 @@
 # Represents a Point where x and y are Numbers
 
 def circleArea (circle)
-  area = circle.radius ** 2 * Math::PI
+  circle.radius ** 2 * Math::PI
 end
 
 class Circle
