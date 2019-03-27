@@ -32,7 +32,7 @@ def extracting_names_to_arr(str)
   str_names.split(' ')
 end
 
-def working_with_num(str_temp)
+def balance(str_temp)
   nums_arr = extracting_nums_to_arr(str_temp)
   names_arr = extracting_names_to_arr(str_temp)
   start_sum = nums_arr.delete_at(0).to_f
