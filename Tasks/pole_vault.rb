@@ -8,4 +8,3 @@
 def starting_mark(height)
   ((height - 1.22) * 3.9341 + 8.27).round(2)
 end
-
