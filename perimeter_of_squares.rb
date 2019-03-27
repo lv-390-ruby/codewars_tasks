@@ -6,13 +6,16 @@
 # The function perimeter has for parameter n where n + 1 is the number of squares (they are numbered from 0 to n) and returns the total perimeter of all the squares.
 #
 def perimeter(n)
+  if n < 0
+    raise 'Argument should be an positive only'
+  end
   a = 0
   b = 1
   arr = []
   if n == 0
     a
   elsif n == 1
-    b
+    return b * 8
   else
     (2 .. n + 1 ).each do |i|
       c = a + b
