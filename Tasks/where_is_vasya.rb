@@ -1,4 +1,5 @@
 # Author: Alina Kovtun
+# 
 # Vasya stands in line with number of people p (including Vasya),
 # but he doesn't know exactly which position he occupies.
 # Find the number of different positions Vasya can occupy.
