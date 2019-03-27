@@ -9,10 +9,8 @@ def find_nb(m)
     sum += x ** 3
     if sum == m
       return x
-      break
     elsif sum > m
       return -1
-      break
     end
     x += 1
   end
