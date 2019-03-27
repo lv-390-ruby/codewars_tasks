@@ -9,7 +9,7 @@
     </thead>
     <tbody>
         <tr>
-            <td rowspan=3>Olena Niemova</td>
+            <td rowspan=5>Olena Niemova</td>
             <td>8</td>
             <td><a href="https://www.codewars.com/kata/keep-hydrated-1">Keep Hydrated!</a></td>
         </tr>
@@ -21,6 +21,14 @@
 	          <td>7</td>
 		        <td><a href="https://www.codewars.com/kata/sum-of-a-sequence">Sum of a sequence</a></td>
         </tr>
+	<tr>
+	          <td>6</td>
+		        <td><a href="https://www.codewars.com/kata/floating-point-approximation-i">Floating-point Approximation (I)</a></td>
+        </tr>
+	<tr>
+	          <td>5</td>
+		        <td><a href="https://www.codewars.com/kata/artificial-rain">Artificial Rain</a></td>
+        </tr>    
         <tr>
             <td rowspan=5>Alina Kovtun</td>
             <td>8</td>
