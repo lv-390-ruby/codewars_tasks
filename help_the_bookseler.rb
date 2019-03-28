@@ -28,5 +28,11 @@ def stockList(books, catalogs)
 end
 
 def run_task
-
+  print 'Enter array of numbers: (without [], only numbers like:
+  "ABART 20", "CDXEF 50")'
+  books = gets.chomp.split(',').map { |s| s.to_i }
+  print 'Enter array of numbers: (without [], only numbers like:
+  "A", "B")'
+  catalogs = gets.chomp.split(',').map { |s| s.to_i }
+  puts "Answer is: #{stockList(books, catalogs)}"
 end
