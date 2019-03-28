@@ -7,3 +7,9 @@
 def fix_the_meerkat(arr)
   arr.reverse
 end
+
+def run_task
+  puts 'Enter "Tail Body Head"'
+  input = gets.chomp.split(' ')
+  fix_the_meerkat(input)
+end
