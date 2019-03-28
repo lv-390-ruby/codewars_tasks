@@ -9,7 +9,8 @@
 # last (integer >= first) which gives the end of the search (last inclusive)
 #
 # The function should return the first pair of two prime numbers spaced
-# with a gap of gap between the limits first, last if these numbers exist otherwise nil
+# with a gap of gap between the limits first, last if these numbers exist
+# otherwise nil
 
 def gap(gap, first, last)
   (first..last).each do |num|
