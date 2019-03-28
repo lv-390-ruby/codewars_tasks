@@ -20,6 +20,25 @@ class Menu
     run_task
   end
 
+  def self.help(arg = Menu.methods(false))
+    if arg.is_a? Array
+      arr = arg.select { |i| (i != (:DelegateClass) && i != (:irb_binding)) }
+      puts 'Here are all available functions:', ''
+      puts arr
+    else
+      puts arg.description
+    end
+    def description
+      'Help function:
+        Name:
+            help
+        Synopsis:
+            used for listing all available functions / used for functions description
+        Parameters:
+            optional <command>'
+    end
+  end
+
   def self.authors
     tasks = Dir.entries('./Tasks/').sort #['keep_hydrated.rb', 'artificial_rain.rb', 'approximation.rb']
     authors = {}
