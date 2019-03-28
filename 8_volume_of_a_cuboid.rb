@@ -17,5 +17,3 @@ def run_task
 
   puts "The volume of cuboid is #{get_volume_of_cuboid(length, width, height)}"
 end
-
-run_task
