@@ -22,12 +22,47 @@ class Menu
 
   def self.help(arg = Menu.methods(false))
     arr = Menu.methods(false).select { |i| (i != (:DelegateClass)) }
-    description = {'help' => 'I will help you', }
-    if arg.is_a? Array
-      puts 'Here are all available functions:', ''
-      puts arr
+    description = {'help' => 'Help function:
+        Name:
+            help
+        Synopsis:
+            used for listing all available functions / used for functions description
+        Parameters:
+            optional <command>', 'tasks' => 'Task function:
+        Name:
+            tasks
+        Synopsis:
+            used for listing all tasks
+        Parameters:
+            no', 'authors' => 'Task function:
+        Name:
+            authors
+        Synopsis:
+            used for listing all authors
+        Parameters:
+            optional <name>, <-t> tasks', 'run' => 'Task function:
+        Name:
+            run
+        Synopsis:
+            used for tasks running
+        Parameters:
+            obligatory <task name>', 'show' => 'Task function:
+        Name:
+            show
+        Synopsis:
+            used to show tasks code
+        Parameters:
+            obligatory <task name>', 'info' => 'Task function:
+        Name:
+            info
+        Synopsis:
+            used to show tasks info
+        Parameters:
+            obligatory <task name>'}
+    if arg.is_a? Array ?
+      puts 'Here are all available functions:', '', arr
     else
-      p description[arg]
+      puts description[arg] || 'No such command. Use <help> for help. :)'
     end
 
   end
