@@ -7,6 +7,6 @@ def count_positives_sum_negatives(lst)
   lst.nil? || lst.empty? ? [] : [lst.reject { |x| x < 1 }.count, (lst.reject { |x| x > -1 }).sum]
 end
 
-def run_tasks
+def run_task
 
 end
