@@ -26,3 +26,7 @@ def perimeter(n)
     end
   arr.insert(0, 1).inject(0, :+) * 4
 end
+
+def run_task
+
+end
