@@ -14,7 +14,7 @@ def converter(mpg)
 end
 
 def run_task
-  print "Enter the amount of miles per imperial gallon: "
+  print 'Enter the amount of miles per imperial gallon: '
   mpg = gets.chomp.to_f
-  puts "#{mpg} miles per imperial gallon = #{converter(mpg)} kilometers per liter"
+  puts "#{mpg} miles per imperial gallon = #{converter(mpg)} km per liter"
 end
