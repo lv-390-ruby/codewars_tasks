@@ -27,3 +27,6 @@ def stockList(books, catalogs)
   "(#{answer.map { |k, v| "#{k} : #{v}" }.join(') - (')})"
 end
 
+def run_task
+
+end
