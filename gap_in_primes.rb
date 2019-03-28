@@ -31,3 +31,14 @@ end
 def no_primes?(first, last)
   ((first + 1)...last).none? { |num| prime?(num) }
 end
+
+def run_task
+  print 'A prime gap: '
+  gap = gets.chomp.to_i
+  print 'The start of the search: '
+  first = gets.chomp.to_i
+  print 'The end of the search: '
+  last = gets.chomp.to_i
+  puts "The first 2 prime numbers spaced with a gap of #{gap}\
+  between the limits #{first} and #{last} are #{gap(gap, first, last)}"
+end
