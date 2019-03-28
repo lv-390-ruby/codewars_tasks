@@ -12,3 +12,9 @@ def converter(mpg)
   kmpl = mpg / IMPERIAL_GALLON_TO_LITRE * MILE_TO_KILOMETER
   kmpl.round(2)
 end
+
+def run_task
+  print "Enter the amount of miles per imperial gallon: "
+  mpg = gets.chomp.to_f
+  puts "#{mpg} miles per imperial gallon = #{converter(mpg)} kilometers per liter"
+end
