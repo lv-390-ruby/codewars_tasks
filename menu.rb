@@ -59,8 +59,9 @@ class Menu
             used to show tasks info
         Parameters:
             obligatory <task name>'}
-    if arg.is_a? Array ?
-      puts 'Here are all available functions:', '', arr
+    if arg.is_a? Array
+      puts 'Here are all available functions:', ''
+      puts arr
     else
       puts description[arg] || 'No such command. Use <help> for help. :)'
     end
