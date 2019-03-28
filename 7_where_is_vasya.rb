@@ -16,3 +16,13 @@ def where_is_he(num, bef, aft)
     num - bef
   end
 end
+
+def run_task
+  print 'Number of people in the line: '
+  num = gets.chomp.to_i
+  print 'Number of people standing in front of him: '
+  bef = gets.chomp.to_i
+  print 'Number of people standing behind him: '
+  aft = gets.chomp.to_i
+  puts "Vasya can occupy #{where_is_he(num, bef, aft)} positions"
+end
