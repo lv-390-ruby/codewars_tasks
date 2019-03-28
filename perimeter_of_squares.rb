@@ -1,3 +1,4 @@
+# Author: Natalia Kozoriz
 # The drawing shows 6 squares the sides of which have
 # a length of 1, 1, 2, 3, 5, 8.
 # It's easy to see that the sum of the
