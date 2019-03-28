@@ -18,7 +18,7 @@ while i
       i = false
     end
   elsif cmd.size > 1
-    if cmd[0] == 'show' || cmd[0] == 'run'
+    if cmd[0] == 'show' || cmd[0] == 'run' || cmd[0] == 'help'
       begin
         comand = "Menu." + cmd[0] + "('" + cmd[1] + "')"
         eval(comand)

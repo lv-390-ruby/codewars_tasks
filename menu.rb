@@ -21,22 +21,15 @@ class Menu
   end
 
   def self.help(arg = Menu.methods(false))
+    arr = Menu.methods(false).select { |i| (i != (:DelegateClass)) }
+    description = {'help' => 'I will help you', }
     if arg.is_a? Array
-      arr = arg.select { |i| (i != (:DelegateClass) && i != (:irb_binding)) }
       puts 'Here are all available functions:', ''
       puts arr
     else
-      puts arg.description
+      p description[arg]
     end
-    def description
-      'Help function:
-        Name:
-            help
-        Synopsis:
-            used for listing all available functions / used for functions description
-        Parameters:
-            optional <command>'
-    end
+
   end
 
   def self.authors
@@ -54,4 +47,8 @@ class Menu
       authors.each { |k, v| puts "\t#{k}" if v == author }
     end
   end
+
+
 end
+
+
