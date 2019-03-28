@@ -86,7 +86,7 @@
     </tbody>
     <tbody>
         <tr>
-            <td rowspan=3>Vitalii Pidtserkovnyi</td>
+            <td rowspan=5>Vitalii Pidtserkovnyi</td>
             <td>8</td>
             <td><a href="https://www.codewars.com/kata/wilson-primes">Willson primes</a></td>
         </tr>
