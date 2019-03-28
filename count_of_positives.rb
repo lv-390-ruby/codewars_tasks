@@ -12,4 +12,6 @@ end
 def run_task
   print 'Enter array of numbers: (without [], only numbers)'
   lst = gets.chomp.split(',').map { |s| s.to_i }
+  puts "Answer is #{count_positives_sum_negatives(lst)} where
+  first element is count of positives ande second sum of negatives"
 end
