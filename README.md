@@ -50,7 +50,7 @@
             <td>5</td>
             <td><a href="https://www.codewars.com/kata/gap-in-primes">Gap in Primes</a></td>
         </tr>
-            <td rowspan=3>Khrystyna Mandzii</td>
+            <td rowspan=5>Khrystyna Mandzii</td>
             <td>8</td>
             <td><a href="https://www.codewars.com/kata/my-head-is-at-the-wrong-end">My head is at the wrong end</a></td>
         </tr>
