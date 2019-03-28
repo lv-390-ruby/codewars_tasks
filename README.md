@@ -98,5 +98,13 @@
 	          <td>7</td>
 		        <td><a href="https://www.codewars.com/kata/looking-for-a-benefactor">Looking for a benefactor</a></td>
         </tr>
+        <tr>
+	          <td>6</td>
+		        <td><a href=https://www.codewars.com/kata/easy-balance-checking>Easy balance checking</a></td>
+        </tr>
+        <tr>
+	          <td>5</td>
+		        <td><a href="https://www.codewars.com/kata/find-the-smallest">Find the smallest</a></td>
+        </tr>
     </tbody>
 </table>
