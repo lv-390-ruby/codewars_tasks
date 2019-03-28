@@ -7,7 +7,7 @@ while i
   input = gets
   cmd = input.split(' ')
   if cmd.size == 1
-    if cmd[0] == 'tasks' || cmd[0] == 'help' || cmd[0] == 'test'
+    if cmd[0] == 'tasks' || cmd[0] == 'help' || cmd[0] == 'test' || cmd[0] == 'authors'
       begin
         comand = "Menu." + cmd[0]
         eval(comand)
