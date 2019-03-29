@@ -84,6 +84,19 @@ class Menu
     end
   end
 
+  def self.tests
+      directorylist = %x[find . -name '*spec.rb' | sort]
+      all_tests = directorylist.split(' ')
+      puts all_tests
+  end
+
+  def self.test(file_name)
+    directorylist = %x[find . -name '*spec.rb' | sort]
+    all_tests = directorylist.split(' ')
+    all_tests.each do |x|
+      system("rspec '#{all_tests[all_tests.index(x)]}'") if x.include? file_name
+    end
+  end
 
 end
 
