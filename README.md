@@ -9,7 +9,7 @@
     </thead>
     <tbody>
         <tr>
-            <td rowspan=3>Olena Niemova</td>
+            <td rowspan=5>Olena Niemova</td>
             <td>8</td>
             <td><a href="https://www.codewars.com/kata/keep-hydrated-1">Keep Hydrated!</a></td>
         </tr>
@@ -21,6 +21,14 @@
 	          <td>7</td>
 		        <td><a href="https://www.codewars.com/kata/sum-of-a-sequence">Sum of a sequence</a></td>
         </tr>
+	<tr>
+	          <td>6</td>
+		        <td><a href="https://www.codewars.com/kata/floating-point-approximation-i">Floating-point Approximation (I)</a></td>
+        </tr>
+	<tr>
+	          <td>5</td>
+		        <td><a href="https://www.codewars.com/kata/artificial-rain">Artificial Rain</a></td>
+        </tr>    
         <tr>
             <td rowspan=5>Alina Kovtun</td>
             <td>8</td>
@@ -42,7 +50,7 @@
             <td>5</td>
             <td><a href="https://www.codewars.com/kata/gap-in-primes">Gap in Primes</a></td>
         </tr>
-            <td rowspan=3>Khrystyna Mandzii</td>
+            <td rowspan=5>Khrystyna Mandzii</td>
             <td>8</td>
             <td><a href="https://www.codewars.com/kata/my-head-is-at-the-wrong-end">My head is at the wrong end</a></td>
         </tr>
@@ -54,6 +62,14 @@
             <td>7</td>
             <td><a href="https://www.codewars.com/kata/recursive-replication">Recursive Replication</a></td>
         </tr>
+        <tr>
+            <td>6</td>
+            <td><a href="https://www.codewars.com/kata/ranking-nba-teams">Ranking NBA</a></td>
+        </tr>   
+        <tr>
+            <td>5</td>
+            <td><a href="https://www.codewars.com/kata/number-of-trailing-zeros-of-n">Trailing zeros in factorial</a></td>
+        </tr>               
 	 <tr>
             <td rowspan=5>Nataliya Kozoriz</td>
             <td>8</td>
@@ -78,7 +94,7 @@
     </tbody>
     <tbody>
         <tr>
-            <td rowspan=3>Vitalii Pidtserkovnyi</td>
+            <td rowspan=5>Vitalii Pidtserkovnyi</td>
             <td>8</td>
             <td><a href="https://www.codewars.com/kata/wilson-primes">Willson primes</a></td>
         </tr>
@@ -89,6 +105,14 @@
         <tr>
 	          <td>7</td>
 		        <td><a href="https://www.codewars.com/kata/looking-for-a-benefactor">Looking for a benefactor</a></td>
+        </tr>
+        <tr>
+	          <td>6</td>
+		        <td><a href=https://www.codewars.com/kata/easy-balance-checking>Easy balance checking</a></td>
+        </tr>
+        <tr>
+	          <td>5</td>
+		        <td><a href="https://www.codewars.com/kata/find-the-smallest">Find the smallest</a></td>
         </tr>
     </tbody>
 </table>

@@ -1,18 +1,10 @@
-#Let us call solve the function solve(m) 
-#which returns x such as U(n, x) 
-#goes to m when n goes to infinity.
+# Let us call solve the function solve(sum_fun)
+# which returns x such as U(n, x)
+# goes to sum_fun when n goes to infinity.
 
-def solve(m)
-  a = m
-  b = -2 * m - 1
-  c = m
-  d = b ** 2 - 4 * a * c
-  if d == 0
-    return -b / (2 * a)
-  else 
-    x1 = (-b + Math.sqrt(d)) / (2 * a)
-    x2 = (-b - Math.sqrt(d)) / (2 * a)
-    return x1 < x2 ? x1 : x2
-  end
+def solve(sum_fun)
+  function1 = (-2 * sum_fun - 1)
+  discrim = function1**2 - 4 * sum_fun**2
+  twice = (2 * sum_fun)
+  discrim.zero? ? -function1 / twice : (-function1 - Math.sqrt(discrim)) / twice
 end
-
