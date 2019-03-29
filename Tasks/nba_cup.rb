@@ -1,3 +1,4 @@
+# Author: Khrystyna Mandzii
 # You are given a string with results of NBA teams separated by commas e.g:
 
 # result_sheet = 'Los Angeles Clippers 104.2'\
