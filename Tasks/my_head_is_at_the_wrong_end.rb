@@ -1,3 +1,4 @@
+# Author: Khrystyna Mandzii
 # The function re-arrange the array so that the animal
 # is the right way round (head, body, tail).
 
