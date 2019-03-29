@@ -1,4 +1,4 @@
-require '../Tasks/sum_of_sequence.rb'
+require_relative '../Tasks/sum_of_sequence.rb'
 
 RSpec.describe '#sum_of_sequence' do
   context 'valid input' do
