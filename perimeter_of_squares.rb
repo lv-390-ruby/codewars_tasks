@@ -13,20 +13,27 @@
 def perimeter(n)
   raise 'Argument should be an positive only' if n < 0
 
-  a, b, arr = 0
-  n.zero? a
-    if n == 1; return b * 8
-    else
-      (2..n + 1).each do |_i|
-        c = a + b
-        a = b
-        b = c
-        arr.push(c)
-      end
+  a = 0
+  b = 1
+  arr = []
+  if n == 0
+    a
+  elsif n == 1
+    return b * 8
+  else
+    (2..n + 1).each do
+      c = a + b
+      a = b
+      b = c
+      arr.push(c)
     end
+  end
   arr.insert(0, 1).inject(0, :+) * 4
 end
 
 def run_task
-
+  print 'Please print number of squares: '
+  num = gets.chomp.to_i
+  puts "The sum of perimetrs of squares is: #{perimeter(n)}"
 end
+
