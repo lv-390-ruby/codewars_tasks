@@ -1,6 +1,6 @@
 require '../Tasks/sum_of_sequence.rb'
 
-RSpec.describe '#litres' do
+RSpec.describe '#sum_of_sequence' do
   context 'valid input' do
     it 'returns result' do
       expect(sum_of_sequence(2, 6, 2)).to eq(12)
