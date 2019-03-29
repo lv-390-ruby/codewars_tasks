@@ -1,6 +1,6 @@
 require_relative '../Tasks/keep_hydrated.rb'
 
-RSpec.describe '#litres' do
+RSpec.describe '#keep_hydrated' do
   context 'valid input' do
     it 'returns result' do
       expect(keep_hydrated(5)).to eq(2)
