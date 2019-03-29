@@ -8,3 +8,13 @@ def solve(sum_fun)
   twice = (2 * sum_fun)
   discrim.zero? ? -function1 / twice : (-function1 - Math.sqrt(discrim)) / twice
 end
+
+def run_task
+  input = nil
+  until input
+    print 'Integer number > 0: '
+    sum_fun = gets.to_i
+    input = sum_fun
+  end
+  puts solve(input)
+end
