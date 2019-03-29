@@ -1,16 +1,14 @@
-# Function fact(num) calculates the factorial of 'num'
-def fact(num)
-  Math.gamma(num + 1)
-end
+# Author: Pidtserkovnyi Vitalii
 
 # willsons_prime(num) function checks if num is a willsons prime number
-# num == willsons prime number if ((num - 1)! + 1) % (num ** 2) is zero
 def willsons_prime(num)
-  decimalpart = (fact(num - 1) + 1) % (num**2)
+  return false if num > 563
 
-  if decimalpart.zero? && num != 1
-    true
-  else
-    false
-  end
+  (((1...num).inject(:*) + 1) % (num * num)).zero?
+end
+
+def run_task
+  print 'Enter number to check if it is Willsons Prime: '
+  temp = gets
+  puts willsons_prime(temp.to_i)
 end
