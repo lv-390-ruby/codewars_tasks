@@ -14,6 +14,15 @@ class Menu
     text.each_line { |line| print line.to_s unless line =~ /^#/ }
   end
 
+  def self.info(file_name)
+      file_name = './Tasks/' + file_name
+      puts "\"#{file_name}\":"
+      text = File.open(file_name).read
+      text.gsub!(/\r\n?/, "\n")
+      text.each_line { |line| print line.to_s if line =~ /^#/ }
+      puts ''
+  end
+
   def self.run(file_name)
     file_name = 'Tasks/' + file_name
     require_relative file_name
@@ -111,5 +120,3 @@ class Menu
   end
 
 end
-
-
