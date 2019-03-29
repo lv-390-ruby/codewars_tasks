@@ -1,3 +1,4 @@
+# Author: Khrystyna Mandzii
 # The function should return an array containing
 # repetitions of the number argument
 
