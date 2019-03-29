@@ -9,7 +9,7 @@
 # function: variance(town, strng) should return the variance of rainfall
 # for the city town and the strng data.
 
-data =
+@data =
   "Rome:Jan 81.2,Feb 63.2,Mar 70.3,Apr 55.7,May 53.0,Jun 36.4,Jul 17.5,\
   Aug 27.5,Sep 60.9,Oct 117.7,Nov 111.0,Dec 97.9\n" \
   "London:Jan 48.0,Feb 38.9,Mar 39.9,Apr 42.2,May 47.3,Jun 52.1,Jul 59.5,\
@@ -48,4 +48,13 @@ end
 
 def get_data(town, str)
   str.split("\n").find { |s| s.split(':')[0] == town }.scan(/\d+.\d/)
+end
+
+def run_task
+  puts 'Enter name of the town
+  (Rome London Paris NY Vancouver Sydney Bangkok Tokyo
+  Beijing Lima Montevideo Caracas Madrid Berlin): '
+  input = gets.chomp
+  puts mean(input, @data)
+  puts variance(input, @data)
 end
