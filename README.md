@@ -82,15 +82,15 @@
         <tr>
             <td>7</td>
             <td><a href="https://www.codewars.com/kata/slamming-lockers">Slamming Lockers</a></td>
-        </tr> 
+        </tr>
 	  <tr>
             <td>6</td>
             <td><a href="https://www.codewars.com/kata/help-the-bookseller">Help the bookseller!</a></td>
-        </tr> 
+        </tr>
 	 <tr>
             <td>5</td>
             <td><a href="https://www.codewars.com/kata/perimeter-of-squares-in-a-rectangle">Perimeter of squares in a rectangle</a></td>
-        </tr> 
+        </tr>
     </tbody>
     <tbody>
         <tr>
@@ -113,6 +113,29 @@
         <tr>
 	          <td>5</td>
 		        <td><a href="https://www.codewars.com/kata/find-the-smallest">Find the smallest</a></td>
+        </tr>
+    </tbody>
+    <tbody>
+        <tr>
+            <td rowspan=5>Rustam Abdul</td>
+            <td>8</td>
+            <td><a href="https://www.codewars.com/kata/find-numbers-which-are-divisible-by-given-number">Find numbers which are divisible by given number</a></td>
+        </tr>
+        <tr>
+            <td>8</td>
+                <td><a href="https://www.codewars.com/kata/geometry-basics-circle-area-in-2d">Geometry Basics: Circle Area in 2D</a></td>
+        </tr>
+        <tr>
+              <td>7</td>
+                <td><a href="https://www.codewars.com/kata/sum-of-the-first-nth-term-of-series">Sum of the first nth term of Series</a></td>
+        </tr>
+        <tr>
+              <td>6</td>
+                <td><a href=https://www.codewars.com/kata/build-a-pile-of-cubes>Build a pile of Cubes</a></td>
+        </tr>
+        <tr>
+              <td>5</td>
+                <td><a href="https://www.codewars.com/kata/which-x-for-that-sum">Which x for that sum?</a></td>
         </tr>
     </tbody>
 </table>

@@ -90,7 +90,7 @@ class Menu
   end
 
   def self.authors
-    tasks = Dir.entries('./Tasks/').sort #['keep_hydrated.rb', 'artificial_rain.rb', 'approximation.rb']
+    tasks = Dir.entries('./Tasks/').sort
     authors = {}
     tasks.each do |task_name|
       text = File.open(task_name).read
