@@ -1,6 +1,6 @@
 require_relative '../Tasks/mpg_to_kmpl'
 
-RSpec.describe 'converter' do
+RSpec.describe '#converter' do
   context 'when testing the method converter' do
     it 'gets the number of kilometers per liter' do
       kmpl = converter(12)
