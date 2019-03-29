@@ -1,3 +1,4 @@
+# Author: Khrystyna Mandzii
 # Calculate the number of trailing zeros in a factorial of a given number
 # 6! = 1 * 2 * 3 * 4 * 5 * 6 = 720 --> 1 trailing zero
 
