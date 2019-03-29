@@ -1,20 +1,4 @@
-# starting = "1000.00
-# 125 Market 125.45
-# 126 Hardware 34.95
-# 127 Video 7.45
-# 128 Book 14.32
-# 129 Gasoline 16.10"
-# converting input line to be like this:
-# "Original_Balance:_1000.00
-# 125_Market_125.45_Balance_874.55
-# 126_Hardware_34.95_Balance_839.60
-# 127_Video_7.45_Balance_832.15
-# 128_Book_14.32_Balance_817.83
-# 129_Gasoline_16.10_Balance_801.73
-# Total_expense__198.27
-# Average_expense__39.65"
-# (underscores show spaces!)
-
+# Author: Pidtserkovnyi Vitalii
 # Solution:
 # 1. create regular expressions for extracting only bumbers/letters
 # 2. split numbers/letters strings to arr
@@ -22,6 +6,8 @@
 # 4. creating arrays for storing check numbers,
 # check_numbers, available money
 # 5. final string creation
+# Input: 1000.00!= 125 Market !=:125.45 126 Hardware =34.95 127
+# Video! 7.45 128 Book :14.32 129 Gasoline ::16.10
 def extracting_nums_to_arr(str)
   str_nums = str.gsub(/[^0-9. ]/, ' ')
   str_nums.split(' ')
@@ -63,3 +49,12 @@ def balance(str_temp)
   final_str.concat(format('Average expense  %0.2f', ((start_sum - temp) / i)))
   final_str
 end
+
+def run_task
+  print 'Enter string to convert: '
+  temp = gets
+  puts '_______________________________'
+  puts balance(temp)
+end
+
+run_task
