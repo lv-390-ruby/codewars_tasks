@@ -1,6 +1,6 @@
 require_relative '../Tasks/pole_vault.rb'
 
-RSpec.describe '#starting_mark' do
+RSpec.describe '#pole_vault' do
   context 'valid input' do
     it 'returns result' do
       expect(pole_valut(1.52)).to eq(9.45)
