@@ -1,4 +1,4 @@
-require_relative '../app/find_the_smallest'
+require_relative '../Tasks/find_the_smallest'
 
 def testing_cases(i, ans)
   expect(smallest(i)).to eq(ans)

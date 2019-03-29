@@ -1,4 +1,4 @@
-require_relative '../app/formatting_decimal_places'
+require_relative '../Tasks/formatting_decimal_places'
 
 describe 'round_to_two' do
   context 'right values' do

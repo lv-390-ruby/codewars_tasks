@@ -1,4 +1,4 @@
-require_relative '../app/wilson_primes'
+require_relative '../Tasks/wilson_primes'
 
 
 describe 'willson_primes' do

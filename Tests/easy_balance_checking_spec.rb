@@ -1,4 +1,4 @@
-require_relative '../app/easy_balance_checking'
+require_relative '../Tasks/easy_balance_checking'
 
 def testing(s, exp)
   print('testing : ', s, "\n")

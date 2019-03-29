@@ -1,4 +1,4 @@
-require_relative '../app/looking_for_a_benefactor'
+require_relative '../Tasks/looking_for_a_benefactor'
 
 describe 'new_avg' do
   context 'returns right values' do
