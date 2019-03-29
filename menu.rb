@@ -58,6 +58,18 @@ class Menu
         Synopsis:
             used to show tasks info
         Parameters:
+            obligatory <task name>', 'test' => 'Task function:
+        Name:
+            test
+        Synopsis:
+            used to start tests
+        Parameters:
+            obligatory <task name>', 'tests' => 'Task function:
+        Name:
+            info
+        Synopsis:
+            used to show tests
+        Parameters:
             obligatory <task name>'}
     if arg.is_a? Array
       puts 'Here are all available functions:', ''
