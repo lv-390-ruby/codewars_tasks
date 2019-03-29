@@ -13,3 +13,13 @@ def find_nb(sum_fun)
     count += 1
   end
 end
+
+def run_task
+  input = nil
+  until input
+    print 'Positiv integer number: '
+    num = gets.to_i
+    input = num
+  end
+  puts find_nb(input)
+end
