@@ -6,3 +6,22 @@ def divisible_by(numbers, divisible)
   divisible_number = numbers.select { |x| (x % divisible).zero? }
   divisible_number.nil? ? 0 : divisible_number
 end
+
+def run_task
+  input = nil
+  until input
+    print 'Array integer number: '
+    input = gets.chomp
+    array = parse_to_array(input)
+    print 'Integer number: '
+    divisible = gets.to_i
+  end
+  puts divisible_by(array, divisible)
+end
+
+def parse_to_array(input)
+  array = input.delete(' ')
+  array.each_char.map(&:to_i)
+rescue StandardError
+  nil
+end
