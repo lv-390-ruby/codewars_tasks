@@ -2,14 +2,14 @@
 # The function found n and take arg m
 # if such a n exists or -1 if there is no such n.
 
-def find_nb(m)
+def find_nb(sum_fun)
   sum = 0
-  x = 0
+  count = 0
   loop do
-    sum += x**3
-    return x if sum == m
-    return -1 if sum > m
+    sum += count**3
+    return count if sum == sum_fun
+    return -1 if sum > sum_fun
 
-    x += 1
+    count += 1
   end
 end

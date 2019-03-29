@@ -1,3 +1,4 @@
+# Author: Pidtserkovnyi Vitalii
 # You have a positive number n consisting of digits.
 # You can do at most one operation:
 # Choosing the index of a digit in the number,
@@ -12,10 +13,15 @@ def smallest(num)
   size.times do |first|
     size.times do |second|
       digits = num.to_s
-      x = digits.slice!(first)
-      digits.insert(second, x)
+      digits.insert(second, digits.slice!(first))
       res = [digits.to_i, first, second] if digits.to_i < res.first
     end
   end
   res
+end
+
+def run_task
+  print 'Enter number to find the smallest: '
+  temp = gets
+  print smallest(temp.to_i)
 end

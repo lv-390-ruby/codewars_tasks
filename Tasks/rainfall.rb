@@ -1,3 +1,5 @@
+# Author: Alina Kovtun
+#
 # data - strings with rainfall records of a few cities
 # for months from January to December.
 # The records of towns are separated by \n.
@@ -30,5 +32,5 @@ def variance(town, strng)
   get_data(town, strng).sum { |s| (s.to_f - mean(town, strng))**2 } / 12 rescue -1
 end
 def get_data(town, string)
-  a = string.split("\n").find { |s| s.split(':')[0] == town }.scan(/\d+.\d/)
+  string.split("\n").find { |s| s.split(':')[0] == town }.scan(/\d+.\d/)
 end

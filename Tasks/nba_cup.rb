@@ -1,3 +1,4 @@
+# Author: Khrystyna Mandzii
 # You are given a string with results of NBA teams separated by commas e.g:
 
 # result_sheet = 'Los Angeles Clippers 104.2'\
@@ -88,7 +89,7 @@ def nba_cup(result_sheet, to_find)
   check_team(team_exists, str, to_find)
 end
 
-def run_tasks
+def run_task
   puts 'Enter string like this'\
   '"Lviv 201 Odessa 120, Odessa 102 Berlin 292"'
   result_sheet = gets.chomp
