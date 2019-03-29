@@ -1,5 +1,7 @@
+# frozen_string_literal: true
+
 require 'rspec'
-require_relative 'count_of_positives'
+require_relative '../Tasks/count_of_positives'
 
 describe '#count_of_positives' do
   context 'when array is empty or nil' do
