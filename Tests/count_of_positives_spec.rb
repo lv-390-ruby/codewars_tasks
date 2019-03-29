@@ -3,8 +3,8 @@
 require 'rspec'
 require_relative '../Tasks/count_of_positives'
 
-describe '#count_of_positives' do
-  context 'when array is empty or nil' do
+describe '#count_positives_sum_negatives' do
+  context 'when lst is empty or nil' do
     it 'returns empty array' do
       expect(count_positives_sum_negatives([]).empty?).to be true
       expect(count_positives_sum_negatives([])).to eq([])
@@ -12,7 +12,7 @@ describe '#count_of_positives' do
     end
   end
 
-  context 'when array is not empty' do
+  context 'when lst is not empty' do
     it 'returns count of positives' do
       expect(count_positives_sum_negatives([1, 2]).first).to eq(2)
       expect(count_positives_sum_negatives([1, 2, 3, -4]).first).to eq(3)

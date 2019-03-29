@@ -1,7 +1,7 @@
 # frozen_string_literal: true
 
 require 'rspec'
-require_relative '../Tasks/help_the_bookseller'
+require_relative '../Tasks/help_the_bookseler'
 
 describe '#stockList' do
   let(:b) { ['ABAR 200', 'CDXE 500', 'CDXR 230', 'BKWR 250', 'DSRT 780'] }

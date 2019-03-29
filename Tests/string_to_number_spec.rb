@@ -1,16 +1,16 @@
 # frozen_string_literal: true
 
 require 'rspec'
-require_relative '../Tasks/string_to_number'
+require_relative '../Tasks/string_convertion'
 
 describe '#string_to_number' do
-  context 'when parameter s is nil' do
+  context 'when parameter string is nil' do
     it 'returns zero' do
       expect(string_to_number(nil)).to eq(0)
     end
   end
 
-  context 'when parameter s is empty' do
+  context 'when parameter string is empty' do
     it 'returns zero' do
       str = ''
       expect(str.empty?).to be true
@@ -18,7 +18,7 @@ describe '#string_to_number' do
     end
   end
 
-  context 'when parameter s is not empty or nil' do
+  context 'when parameter string is not empty or nil' do
     it 'returns positive values' do
       expect(string_to_number('1')).to eq(1)
       expect(string_to_number('10')).to eq(10)
@@ -34,7 +34,7 @@ describe '#string_to_number' do
 end
 
 describe '#string_to_number' do
-  context 'when parameter s is a fictitious number' do
+  context 'when parameter string is a fictitious number' do
     it 'returns zero' do
       expect(string_to_number('0.1')).to eq(0)
       expect(string_to_number('0.9')).to eq(0)
@@ -48,7 +48,7 @@ describe '#string_to_number' do
     end
   end
 
-  context 'when parameter s is a fictitious number' do
+  context 'when parameter string is a fictitious number' do
     it 'returns zero' do
       expect(string_to_number('0.1')).to eq(0)
       expect(string_to_number('0.5')).to eq(0)
