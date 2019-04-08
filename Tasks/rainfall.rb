@@ -36,13 +36,13 @@ towns = %w[Rome London Paris NY Vancouver Sydney Bangkok Tokyo
 
 def mean(town, str)
   get_data(town, str).sum(&:to_f) / 12
-rescue StandardError
+rescue IOError
   -1
 end
 
 def variance(town, str)
   get_data(town, str).sum { |s| (s.to_f - mean(town, str))**2 } / 12
-rescue StandardError
+rescue IOError
   -1
 end
 
