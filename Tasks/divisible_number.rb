@@ -3,8 +3,7 @@
 # numbers and the second is the divisor.
 
 def divisible_by(numbers, divisible)
-  divisible_number = numbers.select { |x| (x % divisible).zero? }
-  divisible_number.nil? ? 0 : divisible_number
+  numbers.select { |x| (x % divisible).zero? }
 end
 
 def run_task
