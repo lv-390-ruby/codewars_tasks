@@ -3,10 +3,8 @@
 # goes to sum_fun when n goes to infinity.
 
 def solve(sum_fun)
-  function1 = (-2 * sum_fun - 1)
-  discrim = function1**2 - 4 * sum_fun**2
-  twice = (2 * sum_fun)
-  discrim.zero? ? -function1 / twice : (-function1 - Math.sqrt(discrim)) / twice
+  formul = 2 + 1.0 / sum_fun
+  (formul - (formul**2 - 4)**0.5) / 2
 end
 
 def run_task
