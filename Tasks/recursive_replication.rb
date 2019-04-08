@@ -15,5 +15,5 @@ def run_task
   times = gets.to_i
   puts 'Enter the number that must be repeated'
   number = gets.to_i
-  puts replicate(times, number).to_s
+  puts replicate(times, number)
 end
