@@ -7,15 +7,8 @@
 # exp [4, 2, 3, 3, 2] return 4. The most optimal choice will be either of the
 # sections with the height of 3 because the water will flow to its neighbours
 # covering 4 sections altogether: 2, 3, 3, 2.
-def artificial_rain(garden)
-  max_count = 0
-  lowest_height = 0
-  section_size = 1
-  section_index = 0
-  _find_section(garden, max_count, lowest_height, section_size, section_index)
-end
-
-def _find_section(garden, max_count, lowest_height, section_size, section_index)
+def artificial_rain(garden, max_count = 0, lowest_height = 0, section_size = 1,
+                    section_index = 0)
   (1...garden.length).each do |i|
     lowest_height = i if garden[i] < garden[i - 1]
     if garden[i] > garden[i - 1]

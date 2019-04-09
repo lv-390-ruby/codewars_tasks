@@ -8,7 +8,7 @@
 # step - the step with which the numbers in the sequence are added.
 # return - the sum of the sequence.
 def sum_of_sequence(begin_number, end_number, step)
-  begin_number.step(end_number, step).reduce(0, :+)
+  (begin_number..end_number).step(step).reduce(0, :+)
 end
 
 def parse_to_int(input)
