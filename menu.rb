@@ -15,12 +15,12 @@ class Menu
   end
 
   def self.info(file_name)
-      file_name = './Tasks/' + file_name
-      puts "\"#{file_name}\":"
-      text = File.open(file_name).read
-      text.gsub!(/\r\n?/, "\n")
-      text.each_line { |line| print line.to_s if line =~ /^#/ }
-      puts ''
+    file_name = './Tasks/' + file_name
+    puts "\"#{file_name}\":"
+    text = File.open(file_name).read
+    text.gsub!(/\r\n?/, "\n")
+    text.each_line { |line| print line.to_s if line =~ /^#/ }
+    puts ''
   end
 
   def self.run(file_name)
@@ -90,7 +90,7 @@ class Menu
   end
 
   def self.authors
-    tasks = Dir.entries('./Tasks/').sort
+    tasks = Dir.entries('.').sort
     authors = {}
     tasks.each do |task_name|
       text = File.open(task_name).read
@@ -106,9 +106,9 @@ class Menu
   end
 
   def self.tests
-      directorylist = %x[find . -name '*spec.rb' | sort]
-      all_tests = directorylist.split(' ')
-      puts all_tests
+    directorylist = %x[find . -name '*spec.rb' | sort]
+    all_tests = directorylist.split(' ')
+    puts all_tests
   end
 
   def self.test(file_name)
