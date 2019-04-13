@@ -35,19 +35,19 @@ towns = %w[Rome London Paris NY Vancouver Sydney Bangkok Tokyo
            Beijing Lima Montevideo Caracas Madrid Berlin]
 
 def mean(town, str)
-  get_data(town, str).sum(&:to_f) / 12
-rescue IOError
-  -1
+  return -1 unless get_data
+  data = get_data(town, str).sum(&:to_f) / 12
 end
 
 def variance(town, str)
+  return -1 unless get_data
   get_data(town, str).sum { |s| (s.to_f - mean(town, str))**2 } / 12
-rescue IOError
-  -1
 end
 
 def get_data(town, str)
   str.split("\n").find { |s| s.split(':')[0] == town }.scan(/\d+.\d/)
+  # rescue NoMethodError
+  #   nil
 end
 
 def run_task
@@ -58,3 +58,5 @@ def run_task
   puts mean(input, @data)
   puts variance(input, @data)
 end
+
+run_task()
